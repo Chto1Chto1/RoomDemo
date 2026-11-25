@@ -11,5 +11,6 @@ data class Product(
     @ColumnInfo(name = "productId")
     val id: Int = 0,
     val productName: String,
-    val quantity: Int
+    val quantity: Int,
+    val Summa: Int
 )
